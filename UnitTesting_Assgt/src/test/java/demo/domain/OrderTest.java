@@ -1,5 +1,4 @@
 package demo.domain;
-import junit.framework.TestCase;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
@@ -41,7 +40,8 @@ public class OrderTest  {
 
     }
 
-    void shouldReturnTrue_whenPriceWithTex_isSame() {
+    @Test
+    public void shouldReturnTrue_whenPriceWithTex_isSame() {
 
         //given
         Order order = new Order();
